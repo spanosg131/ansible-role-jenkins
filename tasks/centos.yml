@@ -1,0 +1,3 @@
+---
+- include: centos-packages.yml
+- include: centos-service.yml
