@@ -4,3 +4,6 @@
     name: jenkins
     state: started
     enabled: true
+  tags:
+    - centos-service
+    - centos

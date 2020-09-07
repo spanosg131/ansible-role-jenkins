@@ -1,3 +1,7 @@
 ---
 - include: centos-packages.yml
+  tags:
+    - centos
 - include: centos-service.yml
+  tags:
+    - centos
