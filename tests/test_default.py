@@ -15,6 +15,3 @@ def test_service_is_enabled_started(host):
     jenkins_service = host.service("jenkins")
     assert jenkins_service.is_running
     assert jenkins_service.is_enabled
-    
-
-
