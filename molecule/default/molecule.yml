@@ -4,7 +4,7 @@ dependency:
 driver:
   name: docker
 platforms:
-  - name: ansible-role-jenkins
+  - name: ansible-role-jenkins-centos
     image: docker.io/centos:8
     privileged: true
     volumes:
