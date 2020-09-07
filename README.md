@@ -1,36 +1,39 @@
-ansible-role-jenkins
-=========
+# ansible-role-jenkins
 
-Ansible role that installs Jenkins master(s). Currently, this role only supports CentOS based systems.
+Ansible role for installing Jenkins masters.
 
-Requirements
-------------
-More documentation is coming soon...
+## Requirements
 
-Role Variables
---------------
-More documentation is coming soon...
+* Currently only run on CentOS
+* Internet access
 
-Dependencies
-------------
-More documentation is coming soon...
+## Role Variables
 
-Example Playbook
-----------------
+None
 
-Including an example of how to use your role (for instance, with variables passed in as parameters) is always nice for users too:
+## Dependencies
+
+None
+
+## Example Playbook
+
+Example role deployment
+
+```yaml
+
 
     - hosts: jenkins-masters
       become: true
       roles:
          - ansible-role-jenkins
+```
 
-License
--------
+**Note:** Initial admin password can be found at /var/lib/jenkins/secrets/initialAdminPassword
+
+## License
 
 BSD
 
-Author Information
-------------------
+## Author Information
 
 This role was created by George Spanos
