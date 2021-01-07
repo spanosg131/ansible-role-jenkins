@@ -9,8 +9,6 @@ platforms:
     privileged: true
     volumes:
       - /sys/fs/cgroup:/sys/fs/cgroup:ro
-    published_ports: # remove this option when performing CI tets
-      - 0.0.0.0:8080:8080/tcp
     command: "/usr/sbin/init"
 provisioner:
   name: ansible
